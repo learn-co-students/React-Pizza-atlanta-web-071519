@@ -1,11 +1,13 @@
 import React from "react"
+import Pizza from '../components/Pizza'
 
-const PizzaForm = () => {
+const PizzaForm = (props) => {
   return(
       <div className="form-row">
         <div className="col-5">
             <input type="text" className="form-control" placeholder="Pizza Topping" value={
                 //Pizza Topping Should Go Here
+                // props.pizza.topping
                 null
               }/>
         </div>
